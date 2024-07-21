@@ -105,4 +105,29 @@ button {
 
 .card p {
     max-width: 200px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 150px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
 }
