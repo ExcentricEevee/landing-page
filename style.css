@@ -132,3 +132,39 @@ button {
     color: #1f2937;
 }
 
+.cta-section {
+    padding: 150px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-section .container {
+    background-color: #3382f6;
+    width: 60vw;
+    padding: 40px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-container {
+    color: #f9faf8;
+}
+
+.cta-section .header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cta-section .subtext {
+    font-size: 20px;
+}
+
+button.sign-up {
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 36px;
+}
