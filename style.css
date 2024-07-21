@@ -68,7 +68,7 @@ button {
     padding: 8px 28px;
 }
 
-img {
+.hero img {
     background-color: #777;
     flex: 1;
 }
