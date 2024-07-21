@@ -168,3 +168,13 @@ button.sign-up {
     font-weight: 700;
     padding: 12px 36px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 20px;
+    color: #f9faf8;
+    padding: 50px;
+}
