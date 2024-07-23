@@ -7,7 +7,8 @@ body {
 }
 
 header,
-.hero.section {
+.hero-section,
+footer {
     background-color: #1f2937;
 }
 
@@ -20,7 +21,6 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 700;
-    color: #f9faf8;
 }
 
 ul.link-list {
@@ -35,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-.hero.section {
+.hero-section {
     padding: 100px 250px 150px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,6 @@ a {
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
 }
 
 a,
@@ -60,7 +59,6 @@ a,
 
 button {
     background-color: #3882f6;
-    color: #f9faf8;
     font-size: 16px;
     font-weight: 700;
     border: none;
@@ -68,21 +66,27 @@ button {
     padding: 8px 28px;
 }
 
-.hero img {
+.hero-section img {
     background-color: #777;
     flex: 1;
 }
 
-.info.section {
+.info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.info p.header {
+.info-section p.header {
     font-size: 36px;
     font-weight: 900;
+}
+
+.info-section p.header,
+.card p,
+.quote,
+.author {
     color: #1f2937;
 }
 
@@ -96,7 +100,7 @@ button {
     max-width: 300px;
 }
 
-.info img {
+.info-section img {
     width: 150px;
     height: 150px;
     border: 4px solid #3882f6;
@@ -107,7 +111,6 @@ button {
     max-width: 200px;
     font-size: 20px;
     font-weight: 100;
-    color: #1f2937;
 }
 
 .quote-section {
@@ -123,13 +126,11 @@ button {
     max-width: 1000px;
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
 }
 
 .author {
     font-size: 24px;
     font-weight: 700;
-    color: #1f2937;
 }
 
 .cta-section {
@@ -146,10 +147,6 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.text-container {
-    color: #f9faf8;
 }
 
 .cta-section .header {
@@ -173,8 +170,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
     font-size: 20px;
-    color: #f9faf8;
     padding: 50px;
+}
+
+.logo,
+.hero-text h1,
+button,
+.text-container,
+footer {
+    color: #f9faf8;
 }
